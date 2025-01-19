@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mute-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SECRET_KEY
+        value: your_secret_key

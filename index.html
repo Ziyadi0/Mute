@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mute - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="server-list">
+                <div class="server-icon" onclick="createServer()">+</div>
+                <!-- السيرفرات تظهر هنا -->
+            </div>
+            <div class="profile" onclick="showProfile()">
+                <img id="profileImage" src="profile-icon.png" alt="صورة الحساب">
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h2 id="welcomeMessage"></h2>
+                <button onclick="logout()">تسجيل الخروج</button>
+            </div>
+            <div class="messages" id="messages">
+                <!-- الرسائل تظهر هنا -->
+            </div>
+            <div class="message-input">
+                <input type="text" id="messageInput" placeholder="اكتب رسالتك هنا...">
+                <button onclick="sendMessage()">إرسال</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

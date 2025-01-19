@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mute - إنشاء حساب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h2>إنشاء حساب في Mute</h2>
+        <input type="text" id="username" placeholder="اسم المستخدم">
+        <span id="usernameError" class="error"></span>
+        <input type="email" id="email" placeholder="البريد الإلكتروني">
+        <span id="emailError" class="error"></span>
+        <input type="password" id="password" placeholder="كلمة المرور">
+        <span id="passwordError" class="error"></span>
+        <input type="password" id="confirmPassword" placeholder="تأكيد كلمة المرور">
+        <span id="confirmPasswordError" class="error"></span>
+        <button onclick="register()">إنشاء حساب</button>
+        <p>لديك حساب؟ <a href="login.html">تسجيل الدخول</a></p>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

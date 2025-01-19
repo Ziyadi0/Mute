@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #36393f;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 80px;
+    background-color: #2f3136;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.server-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.server-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #7289da;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.server-icon:hover {
+    background-color: #677bc4;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px;
+    background-color: #2f3136;
+    border-bottom: 1px solid #202225;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #677bc4;
+}
+
+.messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.message-input {
+    display: flex;
+    padding: 20px;
+    background-color: #40444b;
+}
+
+.message-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #36393f;
+    color: white;
+}
+
+.message-input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7289da;
+    color: white;
+    cursor: pointer;
+}
+
+.message-input button:hover {
+    background-color: #677bc4;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #36393f;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+}
+
+.auth-container input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #2f3136;
+    color: white;
+}
+
+.auth-container button {
+    width: 320px;
+    padding: 10px;
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #677bc4;
+}
+
+.auth-container p {
+    margin-top: 10px;
+}
+
+.auth-container a {
+    color: #7289da;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.private-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #36393f;
+}
+
+.private-container h2 {
+    margin-bottom: 20px;
+}
+
+.private-container p {
+    margin: 10px 0;
+}
